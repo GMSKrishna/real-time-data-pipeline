@@ -48,3 +48,13 @@ real-time-data-pipeline/
 ├── README.md
 ├── test_db.py
 └── .gitignore
+
+---
+
+# 🚀 Live Demo
+
+## 🌐 Live API
+https://https://real-time-data-pipeline.onrender.com
+
+## 📄 API Documentation
+https://https://real-time-data-pipeline.onrender.com/docs
