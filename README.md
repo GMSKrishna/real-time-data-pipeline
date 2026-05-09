@@ -1,148 +1,74 @@
-📊 Real-Time Financial Intelligence Platform
+# 📊 Real-Time Financial Intelligence Platform
 
-A production-grade real-time financial analytics platform built using FastAPI, PostgreSQL, ETL pipelines, and Streamlit.
-This project fetches live cryptocurrency market data, processes it through an ETL pipeline, stores it in PostgreSQL, and visualizes insights through an interactive dashboard.
+A production-ready real-time financial analytics platform built using FastAPI, PostgreSQL, ETL pipelines, and Streamlit.
 
-🌐 Live Demo
-🚀 Live Dashboard
+---
 
-Real-Time Financial Intelligence Dashboard
+# 🌐 Live Demo
 
-⚡ Live API
+## 🚀 Dashboard
 
-FastAPI Backend Service
+[Open Live Dashboard](https://gmskrishna-real-time-data-pipeline-dashboardapp-qe0dnf.streamlit.app/)
 
-📄 Swagger API Documentation
+## ⚡ API Service
 
-Swagger Docs
+[Open FastAPI Backend](https://real-time-data-pipeline.onrender.com)
 
-💻 GitHub Repository
+## 📄 API Documentation
 
-GitHub Repository
+[Open Swagger Docs](https://real-time-data-pipeline.onrender.com/docs)
 
-🚀 Features
+## 💻 GitHub Repository
 
-✅ Real-time cryptocurrency market analytics
-✅ Automated ETL pipeline
-✅ PostgreSQL cloud database integration
-✅ FastAPI backend APIs
-✅ Interactive Streamlit dashboard
-✅ Cloud deployment with Render & Streamlit Cloud
-✅ REST API endpoints for analytics
-✅ Data visualization and live metrics
-✅ Production-ready architecture
+[View Repository](https://github.com/GMSKrishna/real-time-data-pipeline)
 
-🛠️ Tech Stack
-Python
-FastAPI
-PostgreSQL
-SQLAlchemy
-Pandas
-Streamlit
-Requests
-Render
-Git & GitHub
-📂 Project Structure
-real-time-data-pipeline/
-│
-├── ingestion/
-├── processing/
-├── database/
-├── api/
-├── dashboard/
-├── scheduler/
-├── logs/
-│
-├── requirements.txt
-├── README.md
-└── test_db.py
-⚙️ System Architecture
-Live Crypto API
-        ↓
-Data Ingestion Pipeline
-        ↓
-PostgreSQL Database
-        ↓
-ETL Processing Layer
-        ↓
-FastAPI Backend APIs
-        ↓
-Streamlit Dashboard
-📊 API Endpoints
-Latest Market Data
-/latest-data
+---
 
-Returns latest processed cryptocurrency market data.
+# 🚀 Project Highlights
 
-Top Movers
-/top-movers
+- Real-time cryptocurrency market analytics
+- Automated ETL data pipeline
+- PostgreSQL cloud database integration
+- FastAPI REST API backend
+- Interactive Streamlit dashboard
+- Real-time metrics and visualizations
+- Cloud deployment using Render & Streamlit Cloud
+- End-to-end production architecture
 
-Returns top performing cryptocurrencies based on price movement.
+---
 
-🚀 Local Setup
-Clone Repository
-git clone https://github.com/GMSKrishna/real-time-data-pipeline.git
-Create Virtual Environment
-python -m venv venv
-Activate Virtual Environment
-Windows
-venv\Scripts\activate
-Install Dependencies
-pip install -r requirements.txt
-🗄️ Configure PostgreSQL
+# 🛠️ Tech Stack
 
-Create a PostgreSQL database and update credentials in:
+- Python
+- FastAPI
+- PostgreSQL
+- SQLAlchemy
+- Pandas
+- Streamlit
+- Render
+- Git & GitHub
 
-database/db.py
-▶️ Run Project
-Start FastAPI Backend
-uvicorn api.main:app --reload
-Start Streamlit Dashboard
-streamlit run dashboard/app.py
-📈 Dashboard Preview
+---
 
-The dashboard provides:
+# 📈 Core Functionalities
 
-Live crypto market tracking
-Top movers analysis
-Price trend visualizations
-Platform metrics
-ETL processed insights
-☁️ Deployment
-Backend Deployment
-Render
-Frontend Deployment
-Streamlit Community Cloud
-Database Hosting
-Render PostgreSQL
-🎯 Resume Value
+- Fetches live crypto market data
+- Processes and transforms raw financial data
+- Stores processed analytics in PostgreSQL
+- Provides REST APIs for real-time access
+- Displays analytics through interactive dashboard
+- Tracks latest market movements and trends
 
-This project demonstrates:
+---
 
-✅ Backend Development
-✅ Cloud Deployment
-✅ Database Engineering
-✅ ETL Pipelines
-✅ REST APIs
-✅ Data Analytics
-✅ Production Architecture
-✅ Real-Time Data Processing
+# ☁️ Deployment
 
-👨‍💻 Author
+- Backend API deployed on Render
+- Dashboard deployed on Streamlit Cloud
+- PostgreSQL database hosted on Render
+
+---
+
+# 👨‍💻 Author
 
 Manikanta Sai Krishna Gadugoyyala
-
-SAP + AI Enthusiast
-Data Engineering & Analytics
-Backend Development
-Cloud & Real-Time Systems
-⭐ Future Improvements
-Kafka streaming integration
-Docker containerization
-Kubernetes deployment
-Authentication & user management
-Advanced analytics & forecasting
-AI-powered market predictions
-📜 License
-
-This project is licensed under the MIT License.
