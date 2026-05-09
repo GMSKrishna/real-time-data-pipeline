@@ -3,7 +3,6 @@ from sqlalchemy import create_engine
 
 DATABASE_URL = os.getenv("DATABASE_URL")
 
-# Fix Render PostgreSQL connection
 if DATABASE_URL.startswith("postgresql://"):
     DATABASE_URL = DATABASE_URL.replace(
         "postgresql://",
